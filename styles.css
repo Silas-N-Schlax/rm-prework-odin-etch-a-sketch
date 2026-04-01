@@ -38,9 +38,21 @@ body {
   background-color: #a09c9c;
 }
 
-.square.active {
-  background-color: rgb(72, 71, 71);
-}
+.square.red { background-color: #E63946; }
+.square.blue { background-color: #1D3557; }
+.square.green { background-color: #2A9D8F; }
+.square.yellow { background-color: #E9C46A; }
+.square.orange { background-color: #F4A261; }
+.square.purple { background-color: #8338EC; }
+.square.pink { background-color: #FF006E; }
+.square.teal { background-color: #008080; }
+.square.cyan { background-color: #00B4D8; }
+.square.lime { background-color: #32CD32; }
+.square.brown { background-color: #7B3F00; }
+.square.lavender { background-color: #E6E6FA; }
+.square.gold { background-color: #D4AF37; }
+.square.silver { background-color: #C0C0C0; }
+.square.charcoal { background-color: #36454F; }
 
 .container {
   display: flex;

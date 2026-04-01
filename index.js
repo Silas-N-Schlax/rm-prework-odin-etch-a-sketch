@@ -13,9 +13,20 @@ newGridButton.addEventListener('click', () => {
 })
 
 function changeBackgroundOfSquare(id) {
+  const listOfColors = [
+    "red", "blue", "green", "yellow", "orange", 
+    "purple", "pink", "teal", "cyan", "lime", 
+    "brown", "lavender", "gold", "silver", "charcoal"
+  ];
+  let randomColor = listOfColors[Math.floor(Math.random() * listOfColors.length)]
   let squares = document.querySelectorAll(".square")
   let squareToChange = squares[id]
-  squareToChange.classList.toggle("active")
+  let classList = squareToChange.classList
+  if (classList.length > 1) {
+    squareToChange.classList.toggle(classList[1]) 
+  } else {
+    squareToChange.classList.toggle(randomColor)
+  }
 }
 
 function createGrid(size = 16) {
