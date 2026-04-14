@@ -37,7 +37,7 @@ function createGrid(size = 16) {
     let square = document.createElement("button")
     square.classList.add("square")
     square.id = i
-    square.addEventListener('click', (e) => { changeBackgroundOfSquare(e.target.id)})
+    square.addEventListener('mouseover', (e) => { changeBackgroundOfSquare(e.target.id)})
     mainDiv.appendChild(square) 
   }
 
