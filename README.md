@@ -62,7 +62,7 @@ git clone https://github.com/Silas-N-Schlax/rm-prework-odin-etch-a-sketch.git
 Navigate to the project directory:
 
 ```bash
-cd rm-prework-odin-etch-a-sketch.git
+cd rm-prework-odin-etch-a-sketch
 ```
 
 Open `index.html` in your browser.
