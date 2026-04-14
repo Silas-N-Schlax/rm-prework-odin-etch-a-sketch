@@ -25,8 +25,6 @@ The Odin Project provides a comprehensive open-source curriculum focused on lear
 
 # Project Overview
 
-Describe what this project does and what you practiced while building it.
-
 * Structuring HTML pages
 * Practicing CSS styling
 * Writing basic JavaScript
